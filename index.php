@@ -3,7 +3,7 @@
 /**
  * ---------------------------------------------------------------------
  *
- * GLPI - Gestionnaire Libre de Parc Informatique
+ * GLPI - Gestionnaire Libre de Par c Informatique
  *
  * http://glpi-project.org
  *
