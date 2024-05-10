@@ -1,0 +1,2288 @@
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_users` WHERE `glpi_users`.`id` = '2' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBTM.php:303                             DBmysql->request()
+  src/CommonDBTM.php:5962                            CommonDBTM->getFromDB()
+  src/Html.php:2002                                  CommonDBTM::getById()
+  src/Html.php:1725                                  Html::getPageHeaderTplVars()
+  src/CommonDBTM.php:6601                            Html::header()
+  src/CommonDBTM.php:6554                            CommonDBTM::displayCentralHeader()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `glpi_entities`.`completename`, `glpi_entities`.`comment`, '' AS `transname`, '' AS `transcomment` FROM `glpi_entities` WHERE `glpi_entities`.`id` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:1344                               DBmysql->request()
+  inc/db.function.php:295                            DbUtils->getTreeValueCompleteName()
+  src/Dropdown.php:495                               getTreeValueCompleteName()
+  ...cation/View/Extension/ItemtypeExtension.php:185 Dropdown::getDropdownName()
+  ...ates/79/798068c7711a23a38aec25cd69374c34.php:82 Glpi\Application\View\Extension\ItemtypeExtension->getItemName()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_ba2ef19e7da5fb5f026c0944f4e2bb56->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  src/Application/View/TemplateRenderer.php:163      Twig\TemplateWrapper->render()
+  src/CommonGLPI.php:1110                            Glpi\Application\View\TemplateRenderer->render()
+  src/CommonGLPI.php:1228                            CommonGLPI->showNavigationHeader()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.066\", 19.76Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_computers`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3218                            CommonDBTM->getEmpty()
+  src/MassiveAction.php:789                          CommonDBTM->maybeDeleted()
+  src/MassiveAction.php:241                          MassiveAction::getAllMassiveActions()
+  src/CommonDBTM.php:6232                            MassiveAction->__construct()
+  .../twig/twig/src/Extension/CoreExtension.php:1635 CommonDBTM->getMassiveActionsForItem()
+  ...ates/b4/b41eee934ea0907e69ca08f8772d4f5d.php:52 twig_get_attribute()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_f3549d76f77134b9f828cb0d1d0c6e26->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes/79/798068c7711a23a38aec25cd69374c34.php:421 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_ba2ef19e7da5fb5f026c0944f4e2bb56->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  src/Application/View/TemplateRenderer.php:163      Twig\TemplateWrapper->render()
+  src/CommonGLPI.php:1110                            Glpi\Application\View\TemplateRenderer->render()
+  src/CommonGLPI.php:1228                            CommonGLPI->showNavigationHeader()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.039\", 20.23Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `table_name` AS `TABLE_NAME` FROM `information_schema`.`tables` WHERE `table_schema` = 'sept_root' AND `table_type` = 'BASE TABLE' AND `table_name` LIKE 'glpi\_%'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DBmysql.php:701                                DBmysql->request()
+  src/DBmysql.php:1209                               DBmysql->listTables()
+  src/DBmysql.php:1239                               DBmysql->tableExists()
+  src/CommonDBTM.php:4111                            DBmysql->fieldExists()
+  src/Computer.php:353                               CommonDBTM->getSpecificMassiveActions()
+  src/MassiveAction.php:808                          Computer->getSpecificMassiveActions()
+  src/MassiveAction.php:241                          MassiveAction::getAllMassiveActions()
+  src/CommonDBTM.php:6232                            MassiveAction->__construct()
+  .../twig/twig/src/Extension/CoreExtension.php:1635 CommonDBTM->getMassiveActionsForItem()
+  ...ates/b4/b41eee934ea0907e69ca08f8772d4f5d.php:52 twig_get_attribute()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_f3549d76f77134b9f828cb0d1d0c6e26->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes/79/798068c7711a23a38aec25cd69374c34.php:421 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_ba2ef19e7da5fb5f026c0944f4e2bb56->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  src/Application/View/TemplateRenderer.php:163      Twig\TemplateWrapper->render()
+  src/CommonGLPI.php:1110                            Glpi\Application\View\TemplateRenderer->render()
+  src/CommonGLPI.php:1228                            CommonGLPI->showNavigationHeader()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 20.23Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_knowbaseitems`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/KnowbaseItem_Item.php:362                      CommonDBTM->getEmpty()
+  src/Computer.php:371                               KnowbaseItem_Item::getMassiveActionsForItemtype()
+  src/MassiveAction.php:808                          Computer->getSpecificMassiveActions()
+  src/MassiveAction.php:241                          MassiveAction::getAllMassiveActions()
+  src/CommonDBTM.php:6232                            MassiveAction->__construct()
+  .../twig/twig/src/Extension/CoreExtension.php:1635 CommonDBTM->getMassiveActionsForItem()
+  ...ates/b4/b41eee934ea0907e69ca08f8772d4f5d.php:52 twig_get_attribute()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_f3549d76f77134b9f828cb0d1d0c6e26->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes/79/798068c7711a23a38aec25cd69374c34.php:421 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_ba2ef19e7da5fb5f026c0944f4e2bb56->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  src/Application/View/TemplateRenderer.php:163      Twig\TemplateWrapper->render()
+  src/CommonGLPI.php:1110                            Glpi\Application\View\TemplateRenderer->render()
+  src/CommonGLPI.php:1228                            CommonGLPI->showNavigationHeader()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.059\", 20.63Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_computers`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/MassiveAction.php:814                          CommonDBTM->getEmpty()
+  src/MassiveAction.php:241                          MassiveAction::getAllMassiveActions()
+  src/CommonDBTM.php:6232                            MassiveAction->__construct()
+  .../twig/twig/src/Extension/CoreExtension.php:1635 CommonDBTM->getMassiveActionsForItem()
+  ...ates/b4/b41eee934ea0907e69ca08f8772d4f5d.php:52 twig_get_attribute()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_f3549d76f77134b9f828cb0d1d0c6e26->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes/79/798068c7711a23a38aec25cd69374c34.php:421 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_ba2ef19e7da5fb5f026c0944f4e2bb56->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  src/Application/View/TemplateRenderer.php:163      Twig\TemplateWrapper->render()
+  src/CommonGLPI.php:1110                            Glpi\Application\View\TemplateRenderer->render()
+  src/CommonGLPI.php:1228                            CommonGLPI->showNavigationHeader()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.010\", 20.85Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_computers` WHERE `glpi_computers`.`id` = '8' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBTM.php:303                             DBmysql->request()
+  src/MassiveAction.php:846                          CommonDBTM->getFromDB()
+  src/MassiveAction.php:241                          MassiveAction::getAllMassiveActions()
+  src/CommonDBTM.php:6232                            MassiveAction->__construct()
+  .../twig/twig/src/Extension/CoreExtension.php:1635 CommonDBTM->getMassiveActionsForItem()
+  ...ates/b4/b41eee934ea0907e69ca08f8772d4f5d.php:52 twig_get_attribute()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_f3549d76f77134b9f828cb0d1d0c6e26->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes/79/798068c7711a23a38aec25cd69374c34.php:421 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_ba2ef19e7da5fb5f026c0944f4e2bb56->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  src/Application/View/TemplateRenderer.php:163      Twig\TemplateWrapper->render()
+  src/CommonGLPI.php:1110                            Glpi\Application\View\TemplateRenderer->render()
+  src/CommonGLPI.php:1228                            CommonGLPI->showNavigationHeader()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.005\", 20.99Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs` WHERE `context` = 'core'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Config.php:2953                                DBmysql->request()
+  src/Impact.php:1756                                Config::getConfigurationValues()
+  src/Impact.php:1745                                Impact::getEnabledItemtypes()
+  src/CommonGLPI.php:413                             Impact::isEnabled()
+  src/Computer.php:105                               CommonGLPI->addImpactTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.007\", 21.19Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_items_operatingsystems`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3317                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1863                      CommonDBTM->maybeDynamic()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_OperatingSystem.php:61                    CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_OperatingSystem->getTabNameForItem()
+  src/Computer.php:106                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.005\", 21.40Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_items_operatingsystems`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3185                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1867                      CommonDBTM->maybeRecursive()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_OperatingSystem.php:61                    CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_OperatingSystem->getTabNameForItem()
+  src/Computer.php:106                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 21.40Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `table_name` AS `TABLE_NAME` FROM `information_schema`.`tables` WHERE `table_schema` = 'sept_root' AND `table_type` = 'BASE TABLE' AND `table_name` LIKE 'glpi\_%'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DBmysql.php:701                                DBmysql->request()
+  src/DBmysql.php:1209                               DBmysql->listTables()
+  src/DBmysql.php:1239                               DBmysql->tableExists()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_OperatingSystem.php:61                    CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_OperatingSystem->getTabNameForItem()
+  src/Computer.php:106                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 21.41Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_operatingsystems`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3168                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1875                      CommonDBTM->isEntityAssign()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_OperatingSystem.php:61                    CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_OperatingSystem->getTabNameForItem()
+  src/Computer.php:106                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 21.40Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_operatingsystems` LEFT JOIN `glpi_operatingsystems` ON (`glpi_items_operatingsystems`.`operatingsystems_id` = `glpi_operatingsystems`.`id`) WHERE `glpi_items_operatingsystems`.`items_id` = '8' ORDER BY `glpi_operatingsystems`.`name`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBRelation.php:2079                      DBmysql->request()
+  src/Item_OperatingSystem.php:61                    CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_OperatingSystem->getTabNameForItem()
+  src/Computer.php:106                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 21.40Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicemotherboards` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.027\", 22.18Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicefirmwares` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.21Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_deviceprocessors` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.003\", 22.24Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicememories` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.003\", 22.27Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_deviceharddrives` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.30Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicenetworkcards` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.33Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicedrives` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.36Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicebatteries` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.39Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicegraphiccards` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.41Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicesoundcards` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.44Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicecontrols` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.47Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicepcis` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.50Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicecases` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.002\", 22.52Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicepowersupplies` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.55Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicegenerics` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.58Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicesimcards` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.61Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicesensors` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.64Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_devicecameras` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Devices.php:561                           countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Devices->getTabNameForItem()
+  src/Computer.php:107                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.67Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_disks` WHERE `items_id` = '8' AND `itemtype` = 'Computer' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_Disk.php:79                               countElementsInTable()
+  src/CommonGLPI.php:383                             Item_Disk->getTabNameForItem()
+  src/Computer.php:108                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 22.75Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_items_softwareversions`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3317                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1863                      CommonDBTM->maybeDynamic()
+  src/Item_SoftwareVersion.php:1674                  CommonDBRelation::getListForItemParams()
+  src/Item_SoftwareVersion.php:1692                  Item_SoftwareVersion::getListForItemParams()
+  src/Item_SoftwareVersion.php:1638                  Item_SoftwareVersion::countForItem()
+  src/CommonGLPI.php:383                             Item_SoftwareVersion->getTabNameForItem()
+  src/Computer.php:109                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.005\", 23.01Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_items_softwareversions`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3185                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1867                      CommonDBTM->maybeRecursive()
+  src/Item_SoftwareVersion.php:1674                  CommonDBRelation::getListForItemParams()
+  src/Item_SoftwareVersion.php:1692                  Item_SoftwareVersion::getListForItemParams()
+  src/Item_SoftwareVersion.php:1638                  Item_SoftwareVersion::countForItem()
+  src/CommonGLPI.php:383                             Item_SoftwareVersion->getTabNameForItem()
+  src/Computer.php:109                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.01Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `table_name` AS `TABLE_NAME` FROM `information_schema`.`tables` WHERE `table_schema` = 'sept_root' AND `table_type` = 'BASE TABLE' AND `table_name` LIKE 'glpi\_%'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DBmysql.php:701                                DBmysql->request()
+  src/DBmysql.php:1209                               DBmysql->listTables()
+  src/DBmysql.php:1239                               DBmysql->tableExists()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/Item_SoftwareVersion.php:1674                  CommonDBRelation::getListForItemParams()
+  src/Item_SoftwareVersion.php:1692                  Item_SoftwareVersion::getListForItemParams()
+  src/Item_SoftwareVersion.php:1638                  Item_SoftwareVersion::countForItem()
+  src/CommonGLPI.php:383                             Item_SoftwareVersion->getTabNameForItem()
+  src/Computer.php:109                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.01Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_softwareversions`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3168                            CommonDBTM->getEmpty()
+  src/CommonDBChild.php:356                          CommonDBTM->isEntityAssign()
+  src/CommonDBRelation.php:1875                      CommonDBChild->isEntityAssign()
+  src/Item_SoftwareVersion.php:1674                  CommonDBRelation::getListForItemParams()
+  src/Item_SoftwareVersion.php:1692                  Item_SoftwareVersion::getListForItemParams()
+  src/Item_SoftwareVersion.php:1638                  Item_SoftwareVersion::countForItem()
+  src/CommonGLPI.php:383                             Item_SoftwareVersion->getTabNameForItem()
+  src/Computer.php:109                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.01Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_softwares`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/Software.php:241                               CommonDBTM->getEmpty()
+  src/CommonDBConnexity.php:265                      Software->getEmpty()
+  src/CommonDBConnexity.php:155                      CommonDBConnexity::getItemFromArray()
+  src/CommonDBChild.php:256                          CommonDBConnexity->getConnexityItem()
+  src/CommonDBChild.php:360                          CommonDBChild->getItem()
+  src/CommonDBRelation.php:1875                      CommonDBChild->isEntityAssign()
+  src/Item_SoftwareVersion.php:1674                  CommonDBRelation::getListForItemParams()
+  src/Item_SoftwareVersion.php:1692                  Item_SoftwareVersion::getListForItemParams()
+  src/Item_SoftwareVersion.php:1638                  Item_SoftwareVersion::countForItem()
+  src/CommonGLPI.php:383                             Item_SoftwareVersion->getTabNameForItem()
+  src/Computer.php:109                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.01Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_softwareversions` LEFT JOIN `glpi_softwareversions` ON (`glpi_items_softwareversions`.`softwareversions_id` = `glpi_softwareversions`.`id`) WHERE `glpi_items_softwareversions`.`items_id` = '8' AND `glpi_items_softwareversions`.`itemtype` = 'Computer' AND `glpi_items_softwareversions`.`is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_SoftwareVersion.php:1695                  DBmysql->request()
+  src/Item_SoftwareVersion.php:1638                  Item_SoftwareVersion::countForItem()
+  src/CommonGLPI.php:383                             Item_SoftwareVersion->getTabNameForItem()
+  src/Computer.php:109                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.01Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `itemtype` FROM `glpi_computers_items` WHERE `computers_id` = '8' ORDER BY `itemtype`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBRelation.php:1950                      DBmysql->request()
+  src/CommonDBRelation.php:2104                      CommonDBRelation::getDistinctTypes()
+  src/Computer_Item.php:815                          CommonDBRelation::countForMainItem()
+  src/CommonGLPI.php:383                             Computer_Item->getTabNameForItem()
+  src/Computer.php:110                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.002\", 23.13Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_networkports` WHERE `itemtype` = 'Computer' AND `items_id` = '8' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/NetworkPort.php:1861                           countElementsInTable()
+  src/NetworkPort.php:1818                           NetworkPort::countForItem()
+  src/CommonGLPI.php:383                             NetworkPort->getTabNameForItem()
+  src/Computer.php:111                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.004\", 23.34Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_sockets` WHERE `itemtype` = 'Computer' AND `items_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Socket.php:698                                 countElementsInTable()
+  src/CommonGLPI.php:383                             Glpi\Socket->getTabNameForItem()
+  src/Computer.php:112                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.009\", 23.54Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_remotemanagements` WHERE `items_id` = '8' AND `itemtype` = 'Computer'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Item_RemoteManagement.php:62                   countElementsInTable()
+  src/CommonGLPI.php:383                             Item_RemoteManagement->getTabNameForItem()
+  src/Computer.php:113                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.002\", 23.60Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_infocoms` WHERE `itemtype` = 'Computer' AND `items_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Infocom.php:155                                countElementsInTable()
+  src/CommonGLPI.php:383                             Infocom->getTabNameForItem()
+  src/Computer.php:114                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.60Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_contracts_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3317                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1863                      CommonDBTM->maybeDynamic()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Contract_Item.php:231                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Contract_Item->getTabNameForItem()
+  src/Computer.php:115                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.003\", 23.70Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_contracts_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3185                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1867                      CommonDBTM->maybeRecursive()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Contract_Item.php:231                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Contract_Item->getTabNameForItem()
+  src/Computer.php:115                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.70Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `table_name` AS `TABLE_NAME` FROM `information_schema`.`tables` WHERE `table_schema` = 'sept_root' AND `table_type` = 'BASE TABLE' AND `table_name` LIKE 'glpi\_%'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DBmysql.php:701                                DBmysql->request()
+  src/DBmysql.php:1209                               DBmysql->listTables()
+  src/DBmysql.php:1239                               DBmysql->tableExists()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Contract_Item.php:231                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Contract_Item->getTabNameForItem()
+  src/Computer.php:115                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.70Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_contracts`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3168                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1875                      CommonDBTM->isEntityAssign()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Contract_Item.php:231                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Contract_Item->getTabNameForItem()
+  src/Computer.php:115                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.70Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_contracts_items` LEFT JOIN `glpi_contracts` ON (`glpi_contracts_items`.`contracts_id` = `glpi_contracts`.`id`) WHERE `glpi_contracts_items`.`items_id` = '8' ORDER BY `glpi_contracts`.`name`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBRelation.php:2079                      DBmysql->request()
+  src/Contract_Item.php:231                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Contract_Item->getTabNameForItem()
+  src/Computer.php:115                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.70Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_documents_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3317                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1863                      CommonDBTM->maybeDynamic()
+  src/Document_Item.php:1023                         CommonDBRelation::getListForItemParams()
+  src/CommonDBRelation.php:2076                      Document_Item::getListForItemParams()
+  src/Document_Item.php:303                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Document_Item->getTabNameForItem()
+  src/Computer.php:116                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.003\", 23.83Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_documents_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3185                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1867                      CommonDBTM->maybeRecursive()
+  src/Document_Item.php:1023                         CommonDBRelation::getListForItemParams()
+  src/CommonDBRelation.php:2076                      Document_Item::getListForItemParams()
+  src/Document_Item.php:303                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Document_Item->getTabNameForItem()
+  src/Computer.php:116                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.83Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `table_name` AS `TABLE_NAME` FROM `information_schema`.`tables` WHERE `table_schema` = 'sept_root' AND `table_type` = 'BASE TABLE' AND `table_name` LIKE 'glpi\_%'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DBmysql.php:701                                DBmysql->request()
+  src/DBmysql.php:1209                               DBmysql->listTables()
+  src/DBmysql.php:1239                               DBmysql->tableExists()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/Document_Item.php:1023                         CommonDBRelation::getListForItemParams()
+  src/CommonDBRelation.php:2076                      Document_Item::getListForItemParams()
+  src/Document_Item.php:303                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Document_Item->getTabNameForItem()
+  src/Computer.php:116                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.83Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_documents`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3168                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1875                      CommonDBTM->isEntityAssign()
+  src/Document_Item.php:1023                         CommonDBRelation::getListForItemParams()
+  src/CommonDBRelation.php:2076                      Document_Item::getListForItemParams()
+  src/Document_Item.php:303                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Document_Item->getTabNameForItem()
+  src/Computer.php:116                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.83Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_documents_items` LEFT JOIN `glpi_documents` ON (`glpi_documents_items`.`documents_id` = `glpi_documents`.`id`) WHERE `glpi_documents_items`.`items_id` = '8' ORDER BY `glpi_documents`.`name`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBRelation.php:2079                      DBmysql->request()
+  src/Document_Item.php:303                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Document_Item->getTabNameForItem()
+  src/Computer.php:116                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.83Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_computervirtualmachines` WHERE `computers_id` = '8' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/ComputerVirtualMachine.php:77                  countElementsInTable()
+  src/CommonGLPI.php:383                             ComputerVirtualMachine->getTabNameForItem()
+  src/Computer.php:117                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.002\", 23.91Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_computerantiviruses` WHERE `computers_id` = '8' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/ComputerAntivirus.php:68                       countElementsInTable()
+  src/CommonGLPI.php:383                             ComputerAntivirus->getTabNameForItem()
+  src/Computer.php:118                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 23.97Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_knowbaseitems_items` INNER JOIN `glpi_knowbaseitems` ON (`glpi_knowbaseitems_items`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`) LEFT JOIN `glpi_knowbaseitems_users` ON (`glpi_knowbaseitems_users`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`) LEFT JOIN `glpi_knowbaseitems_profiles` ON (`glpi_knowbaseitems_profiles`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`) LEFT JOIN `glpi_entities_knowbaseitems` ON (`glpi_entities_knowbaseitems`.`knowbaseitems_id` = `glpi_knowbaseitems`.`id`) WHERE (1) AND (`glpi_knowbaseitems_items`.`itemtype` = 'Computer' AND `glpi_knowbaseitems_items`.`items_id` = '8')
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/KnowbaseItem_Item.php:393                      countElementsInTable()
+  src/KnowbaseItem_Item.php:66                       KnowbaseItem_Item::getCountForItem()
+  src/CommonGLPI.php:383                             KnowbaseItem_Item->getTabNameForItem()
+  src/Computer.php:119                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 23.97Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_tickets` INNER JOIN `glpi_tickets` ON (`glpi_items_tickets`.`tickets_id` = `glpi_tickets`.`id`) WHERE `itemtype` = 'Computer' AND `items_id` = '8' AND `is_deleted` = '0'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Ticket.php:821                                 countElementsInTable()
+  src/CommonGLPI.php:383                             Ticket->getTabNameForItem()
+  src/Computer.php:120                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.023\", 25.72Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `itemtype`, `items_id` FROM `glpi_computers_items` WHERE `computers_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Computer.php:335                               DBmysql->request()
+  src/Ticket.php:841                                 Computer->getLinkedItems()
+  src/CommonGLPI.php:383                             Ticket->getTabNameForItem()
+  src/Computer.php:120                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 25.72Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_items_problems`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3317                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1863                      CommonDBTM->maybeDynamic()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_Problem.php:255                           CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_Problem->getTabNameForItem()
+  src/Computer.php:121                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.006\", 26.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_items_problems`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3185                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1867                      CommonDBTM->maybeRecursive()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_Problem.php:255                           CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_Problem->getTabNameForItem()
+  src/Computer.php:121                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `table_name` AS `TABLE_NAME` FROM `information_schema`.`tables` WHERE `table_schema` = 'sept_root' AND `table_type` = 'BASE TABLE' AND `table_name` LIKE 'glpi\_%'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DBmysql.php:701                                DBmysql->request()
+  src/DBmysql.php:1209                               DBmysql->listTables()
+  src/DBmysql.php:1239                               DBmysql->tableExists()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_Problem.php:255                           CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_Problem->getTabNameForItem()
+  src/Computer.php:121                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_problems`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3168                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1875                      CommonDBTM->isEntityAssign()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_Problem.php:255                           CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_Problem->getTabNameForItem()
+  src/Computer.php:121                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_items_problems` LEFT JOIN `glpi_problems` ON (`glpi_items_problems`.`problems_id` = `glpi_problems`.`id`) WHERE `glpi_items_problems`.`items_id` = '8' ORDER BY `glpi_problems`.`name`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBRelation.php:2079                      DBmysql->request()
+  src/Item_Problem.php:255                           CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_Problem->getTabNameForItem()
+  src/Computer.php:121                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `itemtype`, `items_id` FROM `glpi_computers_items` WHERE `computers_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Computer.php:335                               DBmysql->request()
+  src/Item_Problem.php:257                           Computer->getLinkedItems()
+  src/CommonGLPI.php:383                             Item_Problem->getTabNameForItem()
+  src/Computer.php:121                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_changes_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3317                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1863                      CommonDBTM->maybeDynamic()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Change_Item.php:260                            CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Change_Item->getTabNameForItem()
+  src/Computer.php:122                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.004\", 26.29Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_changes_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3185                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1867                      CommonDBTM->maybeRecursive()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Change_Item.php:260                            CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Change_Item->getTabNameForItem()
+  src/Computer.php:122                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.29Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `table_name` AS `TABLE_NAME` FROM `information_schema`.`tables` WHERE `table_schema` = 'sept_root' AND `table_type` = 'BASE TABLE' AND `table_name` LIKE 'glpi\_%'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DBmysql.php:701                                DBmysql->request()
+  src/DBmysql.php:1209                               DBmysql->listTables()
+  src/DBmysql.php:1239                               DBmysql->tableExists()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Change_Item.php:260                            CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Change_Item->getTabNameForItem()
+  src/Computer.php:122                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.29Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_changes`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3168                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1875                      CommonDBTM->isEntityAssign()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Change_Item.php:260                            CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Change_Item->getTabNameForItem()
+  src/Computer.php:122                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.29Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_changes_items` LEFT JOIN `glpi_changes` ON (`glpi_changes_items`.`changes_id` = `glpi_changes`.`id`) WHERE `glpi_changes_items`.`items_id` = '8' ORDER BY `glpi_changes`.`name`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBRelation.php:2079                      DBmysql->request()
+  src/Change_Item.php:260                            CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Change_Item->getTabNameForItem()
+  src/Computer.php:122                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.29Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `itemtype`, `items_id` FROM `glpi_computers_items` WHERE `computers_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Computer.php:335                               DBmysql->request()
+  src/Change_Item.php:262                            Computer->getLinkedItems()
+  src/CommonGLPI.php:383                             Change_Item->getTabNameForItem()
+  src/Computer.php:122                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.29Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_manuallinks` WHERE `itemtype` = 'Computer' AND `items_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/ManualLink.php:65                              countElementsInTable()
+  src/CommonGLPI.php:383                             ManualLink->getTabNameForItem()
+  src/Computer.php:123                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 26.35Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_links_itemtypes`, `glpi_links` WHERE `glpi_links_itemtypes`.`links_id` = `glpi_links`.`id` AND `glpi_links_itemtypes`.`itemtype` = 'Computer'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/ManualLink.php:73                              countElementsInTable()
+  src/CommonGLPI.php:383                             ManualLink->getTabNameForItem()
+  src/Computer.php:123                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.002\", 26.45Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_certificates_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3317                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1863                      CommonDBTM->maybeDynamic()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Certificate_Item.php:100                       CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Certificate_Item->getTabNameForItem()
+  src/Computer.php:124                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.004\", 26.61Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_certificates_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3185                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1867                      CommonDBTM->maybeRecursive()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Certificate_Item.php:100                       CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Certificate_Item->getTabNameForItem()
+  src/Computer.php:124                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.61Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `table_name` AS `TABLE_NAME` FROM `information_schema`.`tables` WHERE `table_schema` = 'sept_root' AND `table_type` = 'BASE TABLE' AND `table_name` LIKE 'glpi\_%'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DBmysql.php:701                                DBmysql->request()
+  src/DBmysql.php:1209                               DBmysql->listTables()
+  src/DBmysql.php:1239                               DBmysql->tableExists()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Certificate_Item.php:100                       CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Certificate_Item->getTabNameForItem()
+  src/Computer.php:124                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.62Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_certificates`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3168                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1875                      CommonDBTM->isEntityAssign()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Certificate_Item.php:100                       CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Certificate_Item->getTabNameForItem()
+  src/Computer.php:124                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.61Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_certificates_items` LEFT JOIN `glpi_certificates` ON (`glpi_certificates_items`.`certificates_id` = `glpi_certificates`.`id`) WHERE `glpi_certificates_items`.`items_id` = '8' ORDER BY `glpi_certificates`.`name`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBRelation.php:2079                      DBmysql->request()
+  src/Certificate_Item.php:100                       CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Certificate_Item->getTabNameForItem()
+  src/Computer.php:124                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.61Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_notepads` WHERE `itemtype` = 'Computer' AND `items_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Notepad.php:140                                countElementsInTable()
+  src/Notepad.php:112                                Notepad::countForItem()
+  src/CommonGLPI.php:383                             Notepad->getTabNameForItem()
+  src/Computer.php:126                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 26.68Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_domains_items` WHERE `itemtype` = 'Computer' AND `items_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Domain_Item.php:124                            countElementsInTable()
+  src/Domain_Item.php:77                             Domain_Item::countForItem()
+  src/CommonGLPI.php:383                             Domain_Item->getTabNameForItem()
+  src/Computer.php:128                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.004\", 26.92Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_appliances_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3317                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1863                      CommonDBTM->maybeDynamic()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Appliance_Item.php:77                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Appliance_Item->getTabNameForItem()
+  src/Computer.php:129                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 26.99Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_appliances_items`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3185                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1867                      CommonDBTM->maybeRecursive()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Appliance_Item.php:77                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Appliance_Item->getTabNameForItem()
+  src/Computer.php:129                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 26.99Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `table_name` AS `TABLE_NAME` FROM `information_schema`.`tables` WHERE `table_schema` = 'sept_root' AND `table_type` = 'BASE TABLE' AND `table_name` LIKE 'glpi\_%'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DBmysql.php:701                                DBmysql->request()
+  src/DBmysql.php:1209                               DBmysql->listTables()
+  src/DBmysql.php:1239                               DBmysql->tableExists()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Appliance_Item.php:77                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Appliance_Item->getTabNameForItem()
+  src/Computer.php:129                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 27.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_appliances`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:959                                DBmysql->doQuery()
+  src/CommonDBTM.php:617                             DBmysql->listFields()
+  src/CommonDBTM.php:3168                            CommonDBTM->getEmpty()
+  src/CommonDBRelation.php:1875                      CommonDBTM->isEntityAssign()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Appliance_Item.php:77                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Appliance_Item->getTabNameForItem()
+  src/Computer.php:129                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 27.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_appliances_items` LEFT JOIN `glpi_appliances` ON (`glpi_appliances_items`.`appliances_id` = `glpi_appliances`.`id`) WHERE `glpi_appliances_items`.`items_id` = '8' ORDER BY `glpi_appliances`.`name`
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBRelation.php:2079                      DBmysql->request()
+  src/Appliance_Item.php:77                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Appliance_Item->getTabNameForItem()
+  src/Computer.php:129                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 27.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_databaseinstances` WHERE `itemtype` = 'Computer' AND `items_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/DatabaseInstance.php:549                       countElementsInTable()
+  src/CommonGLPI.php:383                             DatabaseInstance->getTabNameForItem()
+  src/Computer.php:130                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 27.00Mio)"} 
+[2024-05-09 11:11:34] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_logs` WHERE `itemtype` = 'Computer' AND `items_id` = '8'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Log.php:96                                     countElementsInTable()
+  src/CommonGLPI.php:383                             Log->getTabNameForItem()
+  src/Computer.php:132                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  {"user":"2@dinesh0028","mem_usage":"0.002\", 27.04Mio)"} 
+[2024-05-09 14:27:18] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_computers` WHERE `glpi_computers`.`id` = '28' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBTM.php:303                             DBmysql->request()
+  src/CommonDBTM.php:2942                            CommonDBTM->getFromDB()
+  src/MassiveAction.php:1670                         CommonDBTM->can()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `operatingsystems_id` AS `items_id_1`, `items_id` AS `items_id_2`, 'OperatingSystem' AS itemtype_1, 0 AS is_1, `itemtype` AS `itemtype_2`, IF(`glpi_items_operatingsystems`.`items_id` = '28' AND `glpi_items_operatingsystems`.`itemtype` = 'Computer', 1, 0) AS is_2 FROM `glpi_items_operatingsystems` WHERE ((`glpi_items_operatingsystems`.`items_id` = '28' AND `glpi_items_operatingsystems`.`itemtype` = 'Computer'))
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicemotherboards` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.005\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicefirmwares` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_deviceprocessors` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicememories` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_deviceharddrives` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicenetworkcards` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicedrives` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicebatteries` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicegraphiccards` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicesoundcards` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.34Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicecontrols` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicepcis` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicecases` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicepowersupplies` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicegenerics` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicesimcards` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicesensors` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_items_devicecameras` WHERE `itemtype` = 'Computer' AND `items_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Item_Devices.php:533                           DBmysql->request()
+  src/Features/Clonable.php:128                      Item_Devices::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `items_id` AS `items_id`, `itemtype` AS `itemtype` FROM `glpi_infocoms` WHERE `glpi_infocoms`.`items_id` = '28' AND `glpi_infocoms`.`itemtype` = 'Computer'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `items_id` AS `items_id`, `itemtype` AS `itemtype` FROM `glpi_items_disks` WHERE `glpi_items_disks`.`items_id` = '28' AND `glpi_items_disks`.`itemtype` = 'Computer'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `items_id` AS `items_id_1`, `softwareversions_id` AS `items_id_2`, `itemtype` AS `itemtype_1`, IF(`glpi_items_softwareversions`.`items_id` = '28' AND `glpi_items_softwareversions`.`itemtype` = 'Computer', 1, 0) AS is_1, 'SoftwareVersion' AS itemtype_2, 0 AS is_2 FROM `glpi_items_softwareversions` WHERE ((`glpi_items_softwareversions`.`items_id` = '28' AND `glpi_items_softwareversions`.`itemtype` = 'Computer'))
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `items_id` AS `items_id_1`, `softwarelicenses_id` AS `items_id_2`, `itemtype` AS `itemtype_1`, IF(`glpi_items_softwarelicenses`.`items_id` = '28' AND `glpi_items_softwarelicenses`.`itemtype` = 'Computer', 1, 0) AS is_1, 'SoftwareLicense' AS itemtype_2, 0 AS is_2 FROM `glpi_items_softwarelicenses` WHERE ((`glpi_items_softwarelicenses`.`items_id` = '28' AND `glpi_items_softwarelicenses`.`itemtype` = 'Computer'))
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `contracts_id` AS `items_id_1`, `items_id` AS `items_id_2`, 'Contract' AS itemtype_1, 0 AS is_1, `itemtype` AS `itemtype_2`, IF(`glpi_contracts_items`.`items_id` = '28' AND `glpi_contracts_items`.`itemtype` = 'Computer', 1, 0) AS is_2 FROM `glpi_contracts_items` WHERE ((`glpi_contracts_items`.`items_id` = '28' AND `glpi_contracts_items`.`itemtype` = 'Computer'))
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `documents_id` AS `items_id_1`, `items_id` AS `items_id_2`, 'Document' AS itemtype_1, 0 AS is_1, `itemtype` AS `itemtype_2`, IF(`glpi_documents_items`.`items_id` = '28' AND `glpi_documents_items`.`itemtype` = 'Computer', 1, 0) AS is_2 FROM `glpi_documents_items` WHERE ((`glpi_documents_items`.`items_id` = '28' AND `glpi_documents_items`.`itemtype` = 'Computer'))
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `items_id` AS `items_id`, `itemtype` AS `itemtype` FROM `glpi_networkports` WHERE `glpi_networkports`.`items_id` = '28' AND `glpi_networkports`.`itemtype` = 'Computer'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `computers_id` AS `items_id_1`, `items_id` AS `items_id_2`, 'Computer' AS itemtype_1, IF(`glpi_computers_items`.`computers_id` = '28', 1, 0) AS is_1, `itemtype` AS `itemtype_2`, IF(`glpi_computers_items`.`items_id` = '28' AND `glpi_computers_items`.`itemtype` = 'Computer', 1, 0) AS is_2 FROM `glpi_computers_items` WHERE ((`glpi_computers_items`.`computers_id` = '28') OR (`glpi_computers_items`.`items_id` = '28' AND `glpi_computers_items`.`itemtype` = 'Computer'))
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `items_id` AS `items_id`, `itemtype` AS `itemtype` FROM `glpi_notepads` WHERE `glpi_notepads`.`items_id` = '28' AND `glpi_notepads`.`itemtype` = 'Computer'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `knowbaseitems_id` AS `items_id_1`, `items_id` AS `items_id_2`, 'KnowbaseItem' AS itemtype_1, 0 AS is_1, `itemtype` AS `itemtype_2`, IF(`glpi_knowbaseitems_items`.`items_id` = '28' AND `glpi_knowbaseitems_items`.`itemtype` = 'Computer', 1, 0) AS is_2 FROM `glpi_knowbaseitems_items` WHERE ((`glpi_knowbaseitems_items`.`items_id` = '28' AND `glpi_knowbaseitems_items`.`itemtype` = 'Computer'))
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.36Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `items_id` AS `items_id`, `itemtype` AS `itemtype` FROM `glpi_items_remotemanagements` WHERE `glpi_items_remotemanagements`.`items_id` = '28' AND `glpi_items_remotemanagements`.`itemtype` = 'Computer'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id`, `computers_id` AS `items_id`, 'Computer' AS itemtype FROM `glpi_computerantiviruses` WHERE `glpi_computerantiviruses`.`computers_id` = '28'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBConnexity.php:204                      DBmysql->request()
+  src/CommonDBConnexity.php:179                      CommonDBConnexity::getItemsAssociationRequest()
+  src/Features/Clonable.php:128                      CommonDBConnexity::getItemsAssociatedTo()
+  src/Features/Clonable.php:244                      Computer->cloneRelations()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.36Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_computers` WHERE `name` = 'LAB A13 - 1 (cópia de 4)'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/DbUtils.php:524                                DBmysql->request()
+  inc/db.function.php:192                            DbUtils->countElementsInTable()
+  src/Features/Clonable.php:280                      countElementsInTable()
+  src/Features/Clonable.php:233                      Computer->getUniqueCloneName()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.35Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_users` WHERE `glpi_users`.`id` = '12' LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/CommonDBTM.php:303                             DBmysql->request()
+  src/CommonDBTM.php:5745                            CommonDBTM->getFromDB()
+  src/CommonDBTM.php:1312                            CommonDBTM->assetBusinessRules()
+  src/Features/Clonable.php:241                      CommonDBTM->add()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.36Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `id` FROM `glpi_agents` WHERE `itemtype` = 'Computer' AND `items_id` = '-1' ORDER BY `last_contact` DESC LIMIT 1
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Features/Inventoriable.php:312                 DBmysql->request()
+  src/Features/Inventoriable.php:244                 Computer->getMostRecentAgent()
+  src/CommonDBTM.php:5767                            Computer->getInventoryAgent()
+  src/CommonDBTM.php:1312                            CommonDBTM->assetBusinessRules()
+  src/Features/Clonable.php:241                      CommonDBTM->add()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.36Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT `itemtype`, `items_id` FROM `glpi_computers_items` WHERE `computers_id` = '-1'
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/Features/Inventoriable.php:265                 DBmysql->request()
+  src/CommonDBTM.php:5767                            Computer->getInventoryAgent()
+  src/CommonDBTM.php:1312                            CommonDBTM->assetBusinessRules()
+  src/Features/Clonable.php:241                      CommonDBTM->add()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.36Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_fieldunicities` WHERE `itemtype` = 'Computer' AND (`glpi_fieldunicities`.`entities_id` = '0') AND `is_active` = '1' ORDER BY `entities_id` DESC
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src/DBmysql.php:1109                               DBmysqlIterator->execute()
+  src/FieldUnicity.php:222                           DBmysql->request()
+  src/CommonDBTM.php:4540                            FieldUnicity::getUnicityFieldsConfig()
+  src/CommonDBTM.php:1341                            CommonDBTM->checkUnicity()
+  src/Features/Clonable.php:241                      CommonDBTM->add()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.001\", 24.36Mio)"} 
+[2024-05-09 14:30:28] glpisqllog.ERROR: DBmysql::doQuery() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_computers` (`entities_id`, `name`, `serial`, `otherserial`, `contact`, `contact_num`, `users_id_tech`, `groups_id_tech`, `comment`, `autoupdatesystems_id`, `locations_id`, `networks_id`, `computermodels_id`, `computertypes_id`, `manufacturers_id`, `is_deleted`, `is_dynamic`, `users_id`, `groups_id`, `states_id`, `ticket_tco`, `uuid`, `is_recursive`, `last_inventory_update`, `last_boot`, `date_creation`, `date_mod`) VALUES ('0', 'LAB A13 - 1 (cópia de 4)', 'L1BNFHG', '259236', '', '', '2', '1', '//SENHAS ADMIN É BIOS :\r\n1qa2ws / $3pt@ladmin\r\n//MAC\r\n6C:F0:49:F9:8C:A3\r\n//IP \r\n200.17.200.158\r\n//DATA COMPRA\r\nSEM', '0', '3', '2', '5', '1', '3', '0', '0', '12', '1', '1', '0.0000', '', '0', NULL, NULL, '2024-05-09 14:29:37', '2024-05-09 14:29:37')
+  Error: MySQL server has gone away
+  Backtrace :
+  src/DBmysql.php:1380                               DBmysql->doQuery()
+  src/CommonDBTM.php:729                             DBmysql->insert()
+  src/CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src/Features/Clonable.php:241                      CommonDBTM->add()
+  src/Features/Clonable.php:192                      Computer->clone()
+  src/MassiveAction.php:1673                         Computer->cloneMultiple()
+  src/MassiveAction.php:1420                         MassiveAction::processMassiveActionsForOneItemtype()
+  src/MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front/massiveaction.php:62                         MassiveAction->process()
+  {"user":"2@dinesh0028","mem_usage":"0.000\", 24.36Mio)"} 

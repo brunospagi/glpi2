@@ -1,0 +1,16 @@
+2024-04-29 18:12:55 [2@dinesh0028]
+CSRF check failed for User ID: 2 at /front/massiveaction.php
+2024-04-29 18:27:21 [2@dinesh0028]
+CSRF check failed for User ID: 2 at /front/config.form.php
+2024-04-29 18:43:29 [2@dinesh0028]
+CSRF check failed for User ID: 2 at /front/config.form.php
+2024-05-06 21:52:54 [2@dinesh0028]
+CSRF check failed for User ID: 2 at /front/config.form.php
+2024-05-07 16:54:21 [2@dinesh0028]
+CSRF check failed for User ID: 2 at /ajax/getDropdownUsers.php
+2024-05-07 16:54:23 [2@dinesh0028]
+CSRF check failed for User ID: 2 at /ajax/getDropdownUsers.php
+2024-05-07 16:54:25 [2@dinesh0028]
+CSRF check failed for User ID: 2 at /ajax/getDropdownUsers.php
+2024-05-09 11:37:45 [2@dinesh0028]
+CSRF check failed for User ID: 2 at /front/massiveaction.php

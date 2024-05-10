@@ -1,0 +1,774 @@
+[2024-04-29 16:20:52] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:20:52] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 16:21:35] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:21:36] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 16:23:02] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:23:03] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 16:23:32] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:23:33] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 16:23:59] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:24:00] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 16:25:56] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:25:57] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 16:27:21] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:27:22] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 16:27:42] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:27:43] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 16:28:42] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:28:43] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 16:40:17] glpiphplog.DEBUG: Html::compileScss() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/Html.php line 6917
+Compile css/palettes/auror.scss  {"user":"@dinesh0028"} 
+[2024-04-29 16:40:28] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\LoaderError): "Unable to find template "install/step1.htm0.twig" (looked into: /home/storage/6/a2/53/sept-glpiservico1/public_html/templates)." in unknown template at line -1
+  Backtrace :
+  ...r/twig/twig/src/Loader/FilesystemLoader.php:131 Twig\Loader\FilesystemLoader->findTemplate()
+  vendor/twig/twig/src/Environment.php:264           Twig\Loader\FilesystemLoader->getCacheKey()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->getTemplateClass()
+  src/Application/View/TemplateRenderer.php:184      Twig\Environment->load()
+  install/install.php:134                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:585                            step0()
+  
+[2024-04-29 16:40:35] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\LoaderError): "Unable to find template "install/step1.htm0.twig" (looked into: /home/storage/6/a2/53/sept-glpiservico1/public_html/templates)." in unknown template at line -1
+  Backtrace :
+  ...r/twig/twig/src/Loader/FilesystemLoader.php:131 Twig\Loader\FilesystemLoader->findTemplate()
+  vendor/twig/twig/src/Environment.php:264           Twig\Loader\FilesystemLoader->getCacheKey()
+  vendor/twig/twig/src/Environment.php:312           Twig\Environment->getTemplateClass()
+  src/Application/View/TemplateRenderer.php:184      Twig\Environment->load()
+  install/install.php:134                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:585                            step0()
+  
+[2024-04-29 16:41:04] glpiphplog.WARNING: Test logger  
+[2024-04-29 16:41:04] glpiphplog.CRITICAL:   *** Twig Error (Twig\Error\RuntimeError): "An exception has been thrown during the rendering of a template ("Call to undefined function Glpi\System\Requirement\exec()")." in template "/home/storage/6/a2/53/sept-glpiservico1/public_html/templates/install/blocks/requirements_table.html.twig" at line 43
+  Backtrace :
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...ates/20/209359254f3ed236cfdae87c3de850b5.php:77 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_cab1237ac0e2a1dc3cd019e012a502c3->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/TemplateWrapper.php:45        Twig\Template->display()
+  src/Application/View/TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  install/install.php:150                            Glpi\Application\View\TemplateRenderer->display()
+  install/install.php:593                            step1()
+  
+[2024-04-29 18:05:17] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_webhook_configs`.`id`. in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 2174
+  Backtrace :
+  src/DBmysql.php:2174                               trigger_error()
+  src/DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace/webhook/hook.php:34                    DBmysql->runFile()
+  src/Plugin.php:922                                 plugin_webhook_install()
+  :                                                  Plugin->install()
+  src/Marketplace/Controller.php:546                 call_user_func()
+  src/Marketplace/Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src/Marketplace/Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax/marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-04-29 18:05:17] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_webhook_secrettypes`.`id`. in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 2174
+  Backtrace :
+  src/DBmysql.php:2174                               trigger_error()
+  src/DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace/webhook/hook.php:34                    DBmysql->runFile()
+  src/Plugin.php:922                                 plugin_webhook_install()
+  :                                                  Plugin->install()
+  src/Marketplace/Controller.php:546                 call_user_func()
+  src/Marketplace/Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src/Marketplace/Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax/marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-04-29 18:05:18] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_webhook_operationtypes`.`id`. in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 2174
+  Backtrace :
+  src/DBmysql.php:2174                               trigger_error()
+  src/DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src/DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace/webhook/hook.php:34                    DBmysql->runFile()
+  src/Plugin.php:922                                 plugin_webhook_install()
+  :                                                  Plugin->install()
+  src/Marketplace/Controller.php:546                 call_user_func()
+  src/Marketplace/Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src/Marketplace/Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax/marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-05-02 09:17:33] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-02 09:17:33] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-02 09:17:33] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/Html.php at line 1126
+  Backtrace :
+  src/Html.php:2070                                  Html::includeHeader()
+  src/DBConnection.php:610                           Html::nullHeader()
+  src/DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-02 09:17:33] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/Html.php at line 1126
+  Backtrace :
+  src/Html.php:2070                                  Html::includeHeader()
+  src/DBConnection.php:610                           Html::nullHeader()
+  src/DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-02 09:17:33] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/Html.php at line 1126
+  Backtrace :
+  src/Html.php:2070                                  Html::includeHeader()
+  src/DBConnection.php:610                           Html::nullHeader()
+  src/DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-02 09:17:37] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-02 09:17:37] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-02 09:17:37] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/Html.php at line 1126
+  Backtrace :
+  src/Html.php:2070                                  Html::includeHeader()
+  src/DBConnection.php:610                           Html::nullHeader()
+  src/DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-02 09:17:37] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/Html.php at line 1126
+  Backtrace :
+  src/Html.php:2070                                  Html::includeHeader()
+  src/DBConnection.php:610                           Html::nullHeader()
+  src/DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-02 09:17:37] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/Html.php at line 1126
+  Backtrace :
+  src/Html.php:2070                                  Html::includeHeader()
+  src/DBConnection.php:610                           Html::nullHeader()
+  src/DBConnection.php:545                           DBConnection::displayMySQLError()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:31] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-06 21:42:32] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo for sept_root.mysql.dbaas.com.br failed: Name or service not known in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 250
+  Backtrace :
+  src/DBmysql.php:250                                mysqli->real_connect()
+  src/DBmysql.php:209                                DBmysql->connect()
+  src/DBConnection.php:416                           DBmysql->__construct()
+  src/DBConnection.php:510                           DBConnection::switchToMaster()
+  inc/config.php:127                                 DBConnection::establishDBConnection()
+  inc/includes.php:58                                include_once()
+  ajax/dashboard.php:38                              include()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_computers does not exists in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 1240
+  Backtrace :
+  src/DBmysql.php:1240                               trigger_error()
+  src/CommonDBTM.php:4111                            DBmysql->fieldExists()
+  src/Computer.php:353                               CommonDBTM->getSpecificMassiveActions()
+  src/MassiveAction.php:808                          Computer->getSpecificMassiveActions()
+  src/MassiveAction.php:241                          MassiveAction::getAllMassiveActions()
+  src/CommonDBTM.php:6232                            MassiveAction->__construct()
+  .../twig/twig/src/Extension/CoreExtension.php:1635 CommonDBTM->getMassiveActionsForItem()
+  ...ates/b4/b41eee934ea0907e69ca08f8772d4f5d.php:52 twig_get_attribute()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_f3549d76f77134b9f828cb0d1d0c6e26->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes/79/798068c7711a23a38aec25cd69374c34.php:421 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_ba2ef19e7da5fb5f026c0944f4e2bb56->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  src/Application/View/TemplateRenderer.php:163      Twig\TemplateWrapper->render()
+  src/CommonGLPI.php:1110                            Glpi\Application\View\TemplateRenderer->render()
+  src/CommonGLPI.php:1228                            CommonGLPI->showNavigationHeader()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "users_id" in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/KnowbaseItem.php at line 139
+  Backtrace :
+  src/KnowbaseItem_Item.php:363                      KnowbaseItem->canViewItem()
+  src/Computer.php:371                               KnowbaseItem_Item::getMassiveActionsForItemtype()
+  src/MassiveAction.php:808                          Computer->getSpecificMassiveActions()
+  src/MassiveAction.php:241                          MassiveAction::getAllMassiveActions()
+  src/CommonDBTM.php:6232                            MassiveAction->__construct()
+  .../twig/twig/src/Extension/CoreExtension.php:1635 CommonDBTM->getMassiveActionsForItem()
+  ...ates/b4/b41eee934ea0907e69ca08f8772d4f5d.php:52 twig_get_attribute()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_f3549d76f77134b9f828cb0d1d0c6e26->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  .../twig/twig/src/Extension/CoreExtension.php:1347 Twig\TemplateWrapper->render()
+  ...tes/79/798068c7711a23a38aec25cd69374c34.php:421 twig_include()
+  vendor/twig/twig/src/Template.php:394              __TwigTemplate_ba2ef19e7da5fb5f026c0944f4e2bb56->doDisplay()
+  vendor/twig/twig/src/Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor/twig/twig/src/Template.php:379              Twig\Template->display()
+  vendor/twig/twig/src/TemplateWrapper.php:38        Twig\Template->render()
+  src/Application/View/TemplateRenderer.php:163      Twig\TemplateWrapper->render()
+  src/CommonGLPI.php:1110                            Glpi\Application\View\TemplateRenderer->render()
+  src/CommonGLPI.php:1228                            CommonGLPI->showNavigationHeader()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_items_operatingsystems does not exists in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 1240
+  Backtrace :
+  src/DBmysql.php:1240                               trigger_error()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_OperatingSystem.php:61                    CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_OperatingSystem->getTabNameForItem()
+  src/Computer.php:106                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_items_softwareversions does not exists in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 1240
+  Backtrace :
+  src/DBmysql.php:1240                               trigger_error()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/Item_SoftwareVersion.php:1674                  CommonDBRelation::getListForItemParams()
+  src/Item_SoftwareVersion.php:1692                  Item_SoftwareVersion::getListForItemParams()
+  src/Item_SoftwareVersion.php:1638                  Item_SoftwareVersion::countForItem()
+  src/CommonGLPI.php:383                             Item_SoftwareVersion->getTabNameForItem()
+  src/Computer.php:109                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on null in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/Item_SoftwareVersion.php at line 1696
+  Backtrace :
+  src/Item_SoftwareVersion.php:1638                  Item_SoftwareVersion::countForItem()
+  src/CommonGLPI.php:383                             Item_SoftwareVersion->getTabNameForItem()
+  src/Computer.php:109                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_contracts_items does not exists in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 1240
+  Backtrace :
+  src/DBmysql.php:1240                               trigger_error()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Contract_Item.php:231                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Contract_Item->getTabNameForItem()
+  src/Computer.php:115                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_documents_items does not exists in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 1240
+  Backtrace :
+  src/DBmysql.php:1240                               trigger_error()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/Document_Item.php:1023                         CommonDBRelation::getListForItemParams()
+  src/CommonDBRelation.php:2076                      Document_Item::getListForItemParams()
+  src/Document_Item.php:303                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Document_Item->getTabNameForItem()
+  src/Computer.php:116                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_items_problems does not exists in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 1240
+  Backtrace :
+  src/DBmysql.php:1240                               trigger_error()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Item_Problem.php:255                           CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Item_Problem->getTabNameForItem()
+  src/Computer.php:121                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_changes_items does not exists in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 1240
+  Backtrace :
+  src/DBmysql.php:1240                               trigger_error()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Change_Item.php:260                            CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Change_Item->getTabNameForItem()
+  src/Computer.php:122                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_certificates_items does not exists in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 1240
+  Backtrace :
+  src/DBmysql.php:1240                               trigger_error()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Certificate_Item.php:100                       CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Certificate_Item->getTabNameForItem()
+  src/Computer.php:124                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 11:11:34] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_appliances_items does not exists in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/DBmysql.php at line 1240
+  Backtrace :
+  src/DBmysql.php:1240                               trigger_error()
+  src/CommonDBRelation.php:1871                      DBmysql->fieldExists()
+  src/CommonDBRelation.php:2076                      CommonDBRelation::getListForItemParams()
+  src/Appliance_Item.php:77                          CommonDBRelation::countForItem()
+  src/CommonGLPI.php:383                             Appliance_Item->getTabNameForItem()
+  src/Computer.php:129                               CommonGLPI->addStandardTab()
+  src/CommonGLPI.php:333                             Computer->defineTabs()
+  src/CommonGLPI.php:893                             CommonGLPI->defineAllTabs()
+  src/CommonGLPI.php:1230                            CommonGLPI->showTabsContent()
+  src/CommonDBTM.php:6566                            CommonGLPI->display()
+  front/computer.form.php:128                        CommonDBTM::displayFullPageForItem()
+  
+[2024-05-09 15:12:50] glpiphplog.WARNING: Test logger  
+[2024-05-09 15:12:51] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined function Glpi\System\Requirement\exec() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/System/Requirement/SeLinux.php at line 85
+  Backtrace :
+  src/System/Requirement/AbstractRequirement.php:131 Glpi\System\Requirement\SeLinux->check()
+  src/System/Requirement/AbstractRequirement.php:205 Glpi\System\Requirement\AbstractRequirement->doCheck()
+  src/Config.php:1980                                Glpi\System\Requirement\AbstractRequirement->isOutOfContext()
+  src/Config.php:2159                                Config::showSystemInfoTable()
+  src/Config.php:2654                                Config->showSystemInformations()
+  src/CommonGLPI.php:694                             Config::displayTabContentForItem()
+  src/CommonGLPI.php:656                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-05-09 15:12:55] glpiphplog.WARNING: Test logger  
+[2024-05-09 15:12:56] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined function Glpi\System\Requirement\exec() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/System/Requirement/SeLinux.php at line 85
+  Backtrace :
+  src/System/Requirement/AbstractRequirement.php:131 Glpi\System\Requirement\SeLinux->check()
+  src/System/Requirement/AbstractRequirement.php:205 Glpi\System\Requirement\AbstractRequirement->doCheck()
+  src/Config.php:1980                                Glpi\System\Requirement\AbstractRequirement->isOutOfContext()
+  src/Config.php:2159                                Config::showSystemInfoTable()
+  src/Config.php:2654                                Config->showSystemInformations()
+  src/CommonGLPI.php:694                             Config::displayTabContentForItem()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-05-09 16:41:39] glpiphplog.WARNING: Test logger  
+[2024-05-09 16:41:40] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to undefined function Glpi\System\Requirement\exec() in /home/storage/6/a2/53/sept-glpiservico1/public_html/src/System/Requirement/SeLinux.php at line 85
+  Backtrace :
+  src/System/Requirement/AbstractRequirement.php:131 Glpi\System\Requirement\SeLinux->check()
+  src/System/Requirement/AbstractRequirement.php:205 Glpi\System\Requirement\AbstractRequirement->doCheck()
+  src/Config.php:1980                                Glpi\System\Requirement\AbstractRequirement->isOutOfContext()
+  src/Config.php:2159                                Config::showSystemInfoTable()
+  src/Config.php:2654                                Config->showSystemInformations()
+  src/CommonGLPI.php:694                             Config::displayTabContentForItem()
+  src/CommonGLPI.php:656                             CommonGLPI::displayStandardTab()
+  ajax/common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
