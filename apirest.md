@@ -1,6 +1,6 @@
 # GLPI REST API:  Documentation
 
-## Summary
+## Summary 
 
 * [Glossary](#glossary)
 * [Important](#important)
